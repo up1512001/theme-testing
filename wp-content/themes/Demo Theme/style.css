@@ -1,0 +1,65 @@
+/*
+Theme Name: Demo Theme
+Theme URI: https://github.com/up1512001
+Author: Utsav Patel
+Author URI: https://github.com/up1512001
+Description: This is a demo theme.
+Version: 1.0
+Requires at least: 4.0
+Tested up to: 4.7
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: demo-theme
+Tags: Demo, Theme
+*/
+
+
+
+body{
+	padding: 0%;
+	margin: 0%;
+	color: red;
+	background-color: #DCDDCC;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+h1{
+	color: blue;
+}
+
+p{
+	color: green;
+}
+
+a{
+	text-decoration: none;
+	margin-left: 13px;
+	color: #07518c;
+}
+
+ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+img{
+	width: 240px;
+	height: 45px;
+}
+
+.water-calculator{
+	background-color: #003f69;
+	transition: background-color .2s ease-in-out;
+	color: #fff;
+	line-height: 1;
+	padding: 1.6rem 2rem;
+	display: inline-block;
+	border-radius: 50px;
+	box-shadow: 2px 4px 0 rgba(7, 81, 140, .2);
+		text-decoration: none;
+			font-family: Open Sans Condensed, sans-serif;
+			text-align: center;
+	cursor: pointer;
+}
